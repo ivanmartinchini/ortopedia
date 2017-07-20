@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 10,
+    "uniqCompNum": 12,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -100,7 +100,7 @@
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "collapsed": true,
             "hideButtons": true
@@ -108,10 +108,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/dddd-186x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -127,6 +129,11 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "60px"
+            }
+          },
           "_anchor": "header1-1",
           "_params": {
             "parallax": true,
@@ -149,24 +156,24 @@
           },
           "title": "Respeto por las personas",
           "text": "Nuestra misión es atender la necesidad del paciente proporcionando asistencia, información, servicio y equipamento.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#testimonials2-3\" data-toolbar=\"-mbrBtnMove\">VER MÁS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#header3-5\" data-toolbar=\"-mbrBtnMove\">VER PRODUCTOS</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "60px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#testimonials2-3\" data-toolbar=\"-mbrBtnMove\">VER MÁS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#header3-5\" data-toolbar=\"-mbrBtnMove\">VER PRODUCTOS</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "testimonials2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
           "testimonial": [
             {
               "text": "<p>Somos una empresa con más de 25 años en el mercado de la salud. Dedicada a la investigación, fabricación y comercialización de productos ortopédicos, de rehabilitación y cuidados de la salud en el hogar.</p><p>Nuestra misión es atender la necesidad del paciente proporcionando asistencia, información, servicio y equipamento.</p><p>Nuestra meta es la formación y capacitación continua para el bienestar del paciente y la innovación de nuevas tecnologías.</p><p>Nuestro compromiso es la orientación, integración y respeto por las personas</p>",
               "media": {
                 "image": {
-                  "src": "@PROJECT_PATH@/assets/images/mbr-1-160x106.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/local-160x160.png",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
@@ -186,6 +193,9 @@
             "count": "1",
             "paddingTop": "2",
             "paddingBottom": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": false,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
@@ -195,18 +205,10 @@
             "overlayOpacity": 0.2,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": false,
-            "showImages": true,
-            "showName": true,
-            "showBio": false
+            "showSubtitle": false
           },
           "title": "Quienes somos",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "36px"
-            }
-          }
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
           "_styles": {
@@ -233,13 +235,14 @@
           "meta": "By John Smith posted July 20, 2016"
         },
         {
+          "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery1",
+          "_name": "gallery2",
           "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingTop": 4,
+            "paddingBottom": 4,
             "images": [
               {
                 "tags": "Awesome",
@@ -248,7 +251,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/plantillas-2000x2000-800x800.png",
                 "image": "@PROJECT_PATH@/assets/images/plantillas-2000x2000.png",
-                "caption": "Type caption here",
+                "caption": "Plantillas Ortopédicas",
                 "active": false
               },
               {
@@ -256,9 +259,19 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/silla-2000x2000-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/silla-2000x2000.png",
+                "caption": "Silla de Ruedas",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/andadores-2000x2000-800x800.png",
                 "image": "@PROJECT_PATH@/assets/images/andadores-2000x2000.png",
-                "caption": "Type caption here",
+                "caption": "Walker",
                 "active": false
               },
               {
@@ -268,29 +281,39 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/protesis-2000x2000-800x800.png",
                 "image": "@PROJECT_PATH@/assets/images/protesis-2000x2000.png",
-                "caption": "Type caption here",
+                "caption": "Protesis&nbsp;",
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/silla-2000x2000-800x800.png",
-                "image": "@PROJECT_PATH@/assets/images/silla-2000x2000.png",
-                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/corset-2000x2000-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/corset-2000x2000.png",
+                "caption": "Corset",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ortesis2-2000x2000-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/ortesis2-2000x2000.png",
+                "caption": "Ortesis",
                 "active": true
               }
             ],
             "spacing": 0,
-            "showText": false,
+            "showText": true,
             "filter": false,
-            "bgColor": "#FFFFFF",
+            "bgColor": "fff",
             "filterBgColor": false,
-            "fullWidth": false,
+            "fullWidth": true,
             "showBullets": true
           },
-          "_anchor": "gallery1-4",
+          "_anchor": "gallery2-b",
           "articleLayout": false,
           "allItem": "All"
         },
@@ -314,6 +337,15 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "color": "#41a85f",
+              "font-size": "36px"
+            }
+          },
           "_anchor": "form1-7",
           "_params": {
             "labelsColor": "#232323",
@@ -359,16 +391,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "color": "#41a85f",
-              "font-size": "36px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR</a>"
         }
       ]
     }
