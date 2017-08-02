@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 14,
+    "uniqCompNum": 16,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -437,6 +437,41 @@
             "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2017 Ortopedia Carlos Gardel."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-f",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Carlos Gardel 339, Lanús",
+              "placeId": "EkFDYXJsb3MgR2FyZGVsIDMzOSwgQjE4MjROVUEgTGFuw7pzIE9lc3RlLCBCdWVub3MgQWlyZXMsIEFyZ2VudGluYQ",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Dirección &nbsp;y CUIL</strong><br>Carlos Gardel 339<br>CUIL: 20-20497992-2<br><br><br>\n<strong>Contacto</strong><br>\nEmail: info@ortpediacg.com<br>Teléfono: 011 4225 - 8270<br>",
+          "text2": "",
+          "_styles": {
+            "P": {
+              "color": "#7c7c7c"
+            },
+            "STRONG": {
+              "color": "#41a85f"
+            }
+          }
         }
       ]
     }
