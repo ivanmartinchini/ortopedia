@@ -290,7 +290,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/corset-tlso-2000x2000-800x800.png",
-                "image": "@PROJECT_PATH@/assets/images/corset-tlso-2000x2000.png",
+                "image": "@PROJECT_PATH@/assets/images/corset%20tlso-2000x2000.png",
                 "caption": "Corset TLSO",
                 "active": false
               },
