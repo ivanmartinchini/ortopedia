@@ -23,7 +23,9 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 16,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -269,8 +271,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/andadores-2000x2000-800x800.png",
-                "image": "@PROJECT_PATH@/assets/images/andadores-2000x2000.png",
+                "thumb": "@PROJECT_PATH@/assets/images/bota-2000x2000-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/bota-2000x2000.png",
                 "caption": "Walker",
                 "active": false
               },
@@ -290,7 +292,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/corset-tlso-2000x2000-800x800.png",
-                "image": "@PROJECT_PATH@/assets/images/corset%20tlso-2000x2000.png",
+                "image": "@PROJECT_PATH@/assets/images/corset-tlso-2000x2000.png",
                 "caption": "Corset TLSO",
                 "active": false
               },
@@ -299,8 +301,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ortesisjp-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ortesisjp-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ortesis2-2000x2000-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/ortesis2-2000x2000.png",
                 "caption": "Ortesis",
                 "active": false
               },
@@ -309,19 +311,9 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/valva-2000x2000-800x800.png",
-                "image": "@PROJECT_PATH@/assets/images/valva-2000x2000.png",
+                "thumb": "@PROJECT_PATH@/assets/images/walker-2000x2000-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/walker-2000x2000.png",
                 "caption": "Valva",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bota-2000x2000-800x800.png",
-                "image": "@PROJECT_PATH@/assets/images/bota-2000x2000.png",
-                "caption": "Bota",
                 "active": true
               }
             ],
@@ -443,6 +435,14 @@
             "Theme"
           ],
           "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#7c7c7c"
+            },
+            "STRONG": {
+              "color": "#41a85f"
+            }
+          },
           "_anchor": "contacts2-f",
           "_params": {
             "paddingTop": 3,
@@ -462,16 +462,8 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Dirección &nbsp;y CUIL</strong><br>Carlos Gardel 339<br>CUIL: 20-20497992-2<br><br><br>\n<strong>Contacto</strong><br>\nEmail: info@ortpediacg.com<br>Teléfono: 011 4225 - 8270<br>",
-          "text2": "",
-          "_styles": {
-            "P": {
-              "color": "#7c7c7c"
-            },
-            "STRONG": {
-              "color": "#41a85f"
-            }
-          }
+          "text1": "<strong>Dirección &nbsp;y CUIL</strong><br>Carlos Gardel 339<br>CUIL: 20-20497992-9<br><br><br>\n<strong>Contacto</strong><br>\nEmail: info@ortpediacg.com<br>Teléfono: 011 4225 - 8270<br>",
+          "text2": ""
         }
       ]
     }
